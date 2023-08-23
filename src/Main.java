@@ -32,6 +32,7 @@ public class Main {
       @Override
       public int compare(Book book1, Book book2) {
         return book1.getAuthor().compareTo(book2.getAuthor());
+        // вот здесь не знаю как реализовать сравнение при одинаковом авторе
       }
     });
     printBeautifulList((ArrayList<Book>) books);
